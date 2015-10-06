@@ -35,7 +35,7 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: rgb(218, 71, 20);
 }
 
 a:hover,
@@ -76,6 +76,18 @@ h6 {
     color: #fff;
     background-color: #fed136;
 }
+
+.navbar-brand {
+    float: left;
+    padding: 15px 15px 15px 45px;
+    font-size: 26px;
+    font-family: 'amblebold_italic';
+    font-weight: normal;
+    line-height: 22px;
+    height: 50px;
+    background: url('../img/ci-logo-white.png') left top no-repeat;
+}
+
 
 .btn-primary:hover,
 .btn-primary:focus,
@@ -176,7 +188,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Arial","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #FF3B01;
+    color: white;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -252,8 +264,8 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink {
-        padding: 5px 0;
-        background-color: #222;
+        padding: 2px 0;
+        background-color: #DD4814;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -367,7 +379,7 @@ section h3.section-subheading {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(254,209,54,.9);
+    background: rgba(218, 71, 20, .9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
