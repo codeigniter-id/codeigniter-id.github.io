@@ -244,16 +244,16 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
+        padding: 5px 0;
         border: 0;
-        background-color: transparent;
+        background-color: rgba(34, 34, 34, .9);
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
     }
 
     .navbar-default .navbar-brand {
-        font-size: 2em;
+        font-size: 1.5em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
