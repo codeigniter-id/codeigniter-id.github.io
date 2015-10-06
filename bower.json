@@ -1,0 +1,22 @@
+{
+  "name": "codeigniter-id.github.io",
+  "version": "0.0.0",
+  "homepage": "https://github.com/codeigniter-id/codeigniter-id.github.io",
+  "authors": [
+    "puterakahfi <puterakahfi@gmail.com>"
+  ],
+  "description": "landing page for codeigniter indonesia",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "codeigniter"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
