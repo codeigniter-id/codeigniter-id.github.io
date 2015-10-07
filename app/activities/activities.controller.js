@@ -19,7 +19,7 @@
         });
 
         $scope.config = {
-            limit: 3
+            limit: 10
         }
     }
 
