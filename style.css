@@ -11,3 +11,7 @@ and open the template in the editor.
 @import "assets/css/bootstrap.min.css";
 @import "assets/css/agency.css";
 @import "assets/libs/font-awesome/css/font-awesome.min.css";
+
+/* github activity */
+
+@import "assets/libs/angular-github-activity/release/css/github-activity.min.css";
