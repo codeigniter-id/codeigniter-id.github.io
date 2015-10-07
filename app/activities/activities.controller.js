@@ -11,8 +11,7 @@
         GithubActivityService.events({
             user: 'codeigniter-id',
             params: {
-                callback: 'JSON_CALLBACK',
-                access_token: '1980ee54a87d9613cc83a560ddcedcae79b95d26'
+                callback: 'JSON_CALLBACK'
             }
         }).get().$promise.then(function (events) {
             $scope.activity = events.data;
