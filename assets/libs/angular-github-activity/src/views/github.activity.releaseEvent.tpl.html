@@ -1,0 +1,19 @@
+<div class="github-activity-row-event" ng-show="event.type=='ReleaseEvent'">             
+    <div class="github-activity-row-date">{{event.created_at | date:'medium'}}</div><br>
+    <div class="github-activity-row-icon-container">
+        <span class="icon-bubble github-activity-row-icon"></span>
+    </div>
+    <div class="github-activity-description-container">
+        <a class="github-activity-description-url" href="{{event.payload.release.html_url}}" target="_blank">({{event.payload.release.tag_name}})</a>
+        <span class="github-activity-description-label">release {{event.payload.action}}</span>
+        <br>
+        <a href="https://github.com/{{event.repo.name}}" target="_blank">@{{event.repo.name}}</a>
+    </div>
+    <div class="github-activity-message-container">
+        <span class="github-activity-message-lquote">&#8220;</span>
+        <span class="github-activity-message">
+            {{event.actor.login}} {{event.payload.action}} a release
+        </span>
+        <span class="github-activity-message-rquote">&#8221;</span>
+    </div>
+</div>

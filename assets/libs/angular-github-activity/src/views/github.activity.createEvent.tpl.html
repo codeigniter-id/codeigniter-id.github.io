@@ -1,0 +1,22 @@
+<div class="github-activity-row-event" ng-show="event.type=='CreateEvent'">             
+    <div class="github-activity-row-date">{{event.created_at | date:'medium'}}</div><br>
+    <div class="github-activity-row-icon-container">
+        <span ng-show="event.payload.ref_type=='repository'" class="icon-book-alt github-activity-row-icon"></span>
+        <span ng-show="event.payload.ref_type=='tag'" class="icon-tag-fill github-activity-row-icon"></span>
+        <span ng-show="event.payload.ref_type=='branch'" class="icon-tree github-activity-row-icon"></span>
+    </div>
+    <div class="github-activity-description-container">
+        <span ng-show="event.payload.ref_type=='repository'" class="github-activity-description-label">created {{event.payload.ref_type}}</span>
+        <span ng-show="event.payload.ref_type=='tag'" class="github-activity-description-label"><a href="https://github.com/{{event.repo.name}}/tree/{{event.payload.ref}}">({{event.payload.ref}})</a> created {{event.payload.ref_type}}</span>
+        <span ng-show="event.payload.ref_type=='branch'" class="github-activity-description-label"><a href="https://github.com/{{event.repo.name}}/tree/{{event.payload.ref}}">({{event.payload.ref}})</a> created {{event.payload.ref_type}}</span>
+        <br>
+        <a href="https://github.com/{{event.repo.name}}" target="_blank">@{{event.repo.name}}</a>
+    </div>
+    <div class="github-activity-message-container">
+        <span class="github-activity-message-lquote">&#8220;</span>
+        <span class="github-activity-message">
+            {{event.actor.login}} created a {{event.payload.ref_type}}
+        </span>
+        <span class="github-activity-message-rquote">&#8221;</span>
+    </div>
+</div>

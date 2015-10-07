@@ -1,0 +1,18 @@
+<div class="github-activity-row-event" ng-show="event.type=='DeleteEvent'">
+    <div class="github-activity-row-date">{{event.created_at | date:'medium'}}</div><br>
+    <div class="github-activity-row-icon-container">
+        <span class="icon-cancel-circle github-activity-row-icon"></span>
+    </div>
+    <div class="github-activity-description-container">
+        <span class="github-activity-description-label">{{event.payload.ref_type}}&nbsp;deleted</span>
+        <br>
+        <a href="https://github.com/{{event.repo.name}}" target="_blank">@{{event.repo.name}}</a>
+    </div>
+    <div class="github-activity-message-container">
+        <span class="github-activity-message-lquote">&#8220;</span>
+        <span class="github-activity-message">
+            {{event.payload.ref}}&nbsp;{{event.payload.ref_type}}&nbsp;deleted
+        </span>
+        <span class="github-activity-message-rquote">&#8221;</span>
+    </div>
+</div>

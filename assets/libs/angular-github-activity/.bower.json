@@ -1,0 +1,22 @@
+{
+  "name": "angular-github-activity",
+  "version": "0.1.0",
+  "dependencies": {
+    "angular": "v1.2.0-rc.2",
+    "angular-resource": "v1.2.0-rc.2",
+    "angular-mocks": "1.2.0-rc.2",
+    "angular-route": "v1.2.0-rc.2",
+    "bootstrap": "3.0.0"
+  },
+  "homepage": "https://github.com/gigablox/angular-github-activity",
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.0",
+    "commit": "bc0052bd527264ffa428f4461138cb94b5c65d2c"
+  },
+  "_source": "git://github.com/gigablox/angular-github-activity.git",
+  "_target": "~0.1.0",
+  "_originalSource": "angular-github-activity",
+  "_direct": true
+}

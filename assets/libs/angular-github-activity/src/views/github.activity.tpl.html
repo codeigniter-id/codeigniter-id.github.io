@@ -1,0 +1,26 @@
+<div class="github-activity">
+    <div class="github-activity-header">
+        <span class="icon-github github-activity-icon"></span>
+        <span class="github-activity-header-label">GITHUB ACTIVITY</span>
+    </div>
+    <div class="github-activity-row" ng-repeat="event in events | limitTo:options.limit">
+        <github-activity-push-event></github-activity-push-event>
+        <github-activity-issues-event></github-activity-issues-event>
+        <github-activity-issues-comment-event></github-activity-issues-comment-event>
+        <github-activity-fork-event></github-activity-fork-event>
+        <github-activity-pull-request-event></github-activity-pull-request-event>
+        <github-activity-delete-event></github-activity-delete-event>
+        <github-activity-watch-event></github-activity-watch-event>
+        <github-activity-follow-event></github-activity-follow-event>
+        <github-activity-commit-comment-event></github-activity-commit-comment-event>
+        <github-activity-create-event></github-activity-create-event>
+        <github-activity-release-event></github-activity-release-event>
+        <github-activity-fork-apply-event></github-activity-fork-apply-event>
+        <github-activity-gist-event></github-activity-gist-event>
+        <github-activity-gollum-event></github-activity-gollum-event>
+        <github-activity-member-event></github-activity-member-event>
+        <github-activity-public-event></github-activity-public-event>
+        <github-activity-pull-request-review-comment-event></github-activity-pull-request-review-comment-event>
+        <github-activity-team-add-event></github-activity-team-add-event>
+    </div>
+</div>

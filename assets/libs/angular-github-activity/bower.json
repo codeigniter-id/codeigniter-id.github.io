@@ -1,0 +1,11 @@
+{
+  "name": "angular-github-activity",
+  "version": "0.1.0",
+  "dependencies": {
+    "angular": "v1.2.0-rc.2",
+    "angular-resource": "v1.2.0-rc.2",
+    "angular-mocks": "1.2.0-rc.2",
+    "angular-route": "v1.2.0-rc.2",
+    "bootstrap": "3.0.0"
+  }
+}
