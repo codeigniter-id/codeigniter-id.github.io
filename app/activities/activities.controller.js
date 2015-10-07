@@ -12,7 +12,7 @@
             user: 'codeigniter-id',
             params: {
                 callback: 'JSON_CALLBACK',
-                access_token: '23b691e2885a5eb404ce13dcf3f7fccc2b1744f6'
+                access_token: 'd42410af98845708abcca32d208cc16addd184b4'
             }
         }).get().$promise.then(function (events) {
             $scope.activity = events.data;
