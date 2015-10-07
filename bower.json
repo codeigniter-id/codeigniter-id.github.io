@@ -15,7 +15,7 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
+    "assets/libs",
     "test",
     "tests"
   ]
