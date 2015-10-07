@@ -18,5 +18,8 @@
     "assets/libs",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "angular-github-activity": "~0.1.0"
+  }
 }
