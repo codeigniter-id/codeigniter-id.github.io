@@ -12,14 +12,15 @@
             user: 'codeigniter-id',
             params: {
                 callback: 'JSON_CALLBACK',
-                access_token: 'd42410af98845708abcca32d208cc16addd184b4'
+                access_token: '1980ee54a87d9613cc83a560ddcedcae79b95d26'
             }
         }).get().$promise.then(function (events) {
             $scope.activity = events.data;
+            console.log($scope.activity);
         });
 
         $scope.config = {
-            limit: 10
+            limit: 8
         }
     }
 
