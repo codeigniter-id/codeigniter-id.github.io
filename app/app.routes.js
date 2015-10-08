@@ -10,8 +10,7 @@
 	.module('codeigniterIdApp')
 	.config(function($stateProvider, $urlRouterProvider) {
 
-			// Redirect to the auth state if any other states
-			// are requested other than users
+			// Redirect to home
 			$urlRouterProvider.otherwise('/home');
 			
 			$stateProvider
