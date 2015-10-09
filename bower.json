@@ -20,6 +20,7 @@
     "tests"
   ],
   "dependencies": {
-    "angular-github-activity": "~0.1.0"
+    "angular-github-activity": "~0.1.0",
+    "angular-ui-router-anim-in-out": "~0.0.13"
   }
 }
