@@ -2,5 +2,5 @@
 
 (function () {
     'use strict';
-    angular.module('codeigniterIdApp', ['ngAnimate','ngResource', 'github.activity', 'ui.router']);
+    angular.module('codeigniterIdApp', ['ngAnimate','ngResource', 'github.activity', 'ui.router','anim-in-out']);
 })();
