@@ -58,12 +58,7 @@
                         <li>
                             <a class="page-scroll" href="#portfolio"><i class="fa fa-list"></i> Kategori</a>
                         </li>
-                        <li>
-                            <a class="page-scroll" href="#activities"><i class="fa fa-list"></i> Aktivitas</a>
-                        </li>
-
-
-
+  
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -71,51 +66,13 @@
             <!-- /.container-fluid -->
         </nav>
 
-        <!-- Header -->
-        <header>
-            <div class="container">
-                <div class="intro-text">
-                    <div class="intro-lead-in">WELCOME</div>
-                    <div class="intro-heading">It's Nice To Meet You</div>
-                </div>
-            </div>
-        </header>
+      
 
 
+        <!-- Categories Grid Section -->
+        <div ui-view class="anim-in-out anim-fade" data-anim-speed="1000"></div>
 
-        <!-- Portfolio Grid Section -->
-        <div ui-view></div>
-        <!-- <div ng-include="'app/categories/categories.html'"></div> -->
-        <div ng-include="'app/activities/activities.html'"></div>
-
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <span class="copyright">Copyleft &copy; codeigniter-id.github.io</span>
-                    </div>
-                    <div class="col-md-4">
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <ul class="list-inline quicklinks">
-                            <li><a href="#">Privacy Policy</a>
-                            </li>
-                            <li><a href="#">Terms of Use</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
+        <div ng-include="'app/partials/footer.html'" class="anim-in-out anim-slide-left"></div>
         <!-- Portfolio Modals -->
         <!-- Use the modals below to showcase details about your portfolio projects! -->
 
@@ -140,11 +97,16 @@
         <script src="assets/js/agency.js"></script>
 
 
+        <!-- angularjs libs -->
         <script src="assets/libs/angular.min.js"></script>
         <script src="assets/libs/angular-animate.min.js"></script>
         <script src="assets/libs/angular-ui-router.js"></script>
         <script src="assets/libs/angular-resource/angular-resource.min.js"></script>
         <script src="assets/libs/angular-github-activity/release/js/github-activity.min.js"></script>
+        <script src="assets/libs/angular-ui-router-anim-in-out/anim-in-out.js"></script>
+       
+        
+        <!-- app angularjs -->
         <script src="app/app.module.js"></script>
         <script src="app/app.routes.js"></script>
         <script src="app/activities/activities.controller.js"></script>
