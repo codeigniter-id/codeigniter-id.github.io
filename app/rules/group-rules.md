@@ -2,6 +2,7 @@ Rules CodeIgniter Indonesia
 ==================
 
 Hi all, Remember every friday is english day. So, don't hesitate to posting your thought in english this is one of CodeIgniter Indonesia program, Thanks for your participation.
+
 _Best Regards, Admins_
 
 ## Info Member
@@ -25,16 +26,16 @@ Jika pertanyaan yang akan diajukan memiliki source code yang ingin ditunjukan ke
 - dan yang sejenisnya untuk source code agar postingan terlihat lebih simple dan rapi.
 
 Gunakan hashtag jika ingin membuat sebuah postingan (Wajib):
-- __#‎LOKER_CI‬__ : Untuk lowongan pekerjaan.
-- __#‎PROJECT_CI‬__ : Untuk project2x (ebook, Library, helper, cms, dll).
-- __#‎TANYA_CI‬__ : Untuk pertanyaan.
-- __#‎POLLING_CI‬__ : Untuk polling.
-- __#‎EVENT_CI‬__ : Untuk info event2(seminar, pelatihan).
-- __#‎ICEBREAKER_CI‬__ : Postingan yang bersifat santai, guyon, dll.
-- __#‎QUOTE_CI‬__ : Hidup tak melulu tentang programming.
-- __#‎ARTIKEL_CI‬__ : Posting yang sifatnya artikel(link, ebook, dll) .
-- __#INFO_CI__ : Posting yang sifatnya info (ex: beasiswa).
-- __#‎DISKUSI_CI‬__ : Untuk posting yang bersifat masukan, ide, saran.
+    - __#‎LOKER_CI‬__ : Untuk lowongan pekerjaan.
+    - __#‎PROJECT_CI‬__ : Untuk project2x (ebook, Library, helper, cms, dll).
+    - __#‎TANYA_CI‬__ : Untuk pertanyaan.
+    - __#‎POLLING_CI‬__ : Untuk polling.
+    - __#‎EVENT_CI‬__ : Untuk info event2(seminar, pelatihan).
+    - __#‎ICEBREAKER_CI‬__ : Postingan yang bersifat santai, guyon, dll.
+    - __#‎QUOTE_CI‬__ : Hidup tak melulu tentang programming.
+    - __#‎ARTIKEL_CI‬__ : Posting yang sifatnya artikel(link, ebook, dll) .
+    - __#INFO_CI__ : Posting yang sifatnya info (ex: beasiswa).
+    - __#‎DISKUSI_CI‬__ : Untuk posting yang bersifat masukan, ide, saran.
 
 Untuk posting yang sudah __SOLVED__, bisa di kasih hashtag ‪__#‎SOLVED_CI‬__ Problem di postingnya.
 
