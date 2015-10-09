@@ -1,8 +1,3 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
 /* 
     Created on : Oct 6, 2015, 2:41:30 PM
     Author     : dev
@@ -15,3 +10,8 @@ and open the template in the editor.
 /* github activity */
 
 @import "assets/libs/angular-github-activity/release/css/github-activity.min.css";
+
+
+/** angular animations **/
+@import "assets/css/app.animations.css";
+@import "assets/libs/angular-ui-router-anim-in-out/css/anim-in-out.css";
