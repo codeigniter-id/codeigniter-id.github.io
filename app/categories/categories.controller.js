@@ -2,25 +2,21 @@
 (function () {
     'use strict';
     angular.module('codeigniterIdApp')
-            .controller('ProjectsController', ProjectsController);
+            .controller('CategoriesController', CategoriesController)
+            .directive('removeOnClick', removeOnClick);
+    CategoriesController.$inject = ['$scope', '$state'];
+    function CategoriesController($scope, $state) {
 
-    ProjectsController.$inject = ['$scope'];
-
-    function ProjectsController($scope) {
-
-        GithubActivityService.events({
-            user: 'codeigniter-id',
-            params: {
-                callback: 'JSON_CALLBACK'
-            }
-        }).get().$promise.then(function (events) {
-            $scope.activity = events.data;
-            console.log($scope.activity);
-        });
-
-        $scope.config = {
-            limit: 8
-        }
     }
 
+    function removeOnClick() {
+        return {
+            restrict: "A",
+            link: function ($scope, elem, attrs) {
+                $scope.remove = function () {
+                    // not working yet
+                    //$(elem).modal("remove");
+                }
+            }}
+    }
 })();
