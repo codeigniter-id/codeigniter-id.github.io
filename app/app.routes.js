@@ -18,6 +18,10 @@
                             url: '/home',
                             templateUrl: 'app/home/home.html'
                         })
+                        .state('rules', {
+                            url: '/rules',
+                            templateUrl: 'app/rules/rules.html'
+                        })
                         .state('project', {
                             url: '/project',
                             templateUrl: 'app/projects/projects.html'
