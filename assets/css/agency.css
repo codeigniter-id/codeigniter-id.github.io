@@ -227,7 +227,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #DD4814;
+    color: #F1F2F4;
 }
 
 .navbar-default .navbar-nav>.active>a {
