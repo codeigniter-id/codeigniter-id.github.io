@@ -3,9 +3,8 @@
     'use strict';
     angular
             .module('codeigniterIdApp')
-            .config('config', loadConfig)
+            .config('$compileProvider', function ($compileProvider) {
+                $compileProvider.debugInfoEnabled(true);
+            });
 
-    function loadConfig() {
-        return {'testing': 'dsdsds'};
-    }
 });

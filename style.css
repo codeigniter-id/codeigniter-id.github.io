@@ -13,5 +13,5 @@
 
 
 /** angular animations **/
+@import "assets/css/anim-in-out.css";
 @import "assets/css/app.animations.css";
-@import "assets/libs/angular-ui-router-anim-in-out/css/anim-in-out.css";

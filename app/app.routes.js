@@ -14,21 +14,40 @@
                 $urlRouterProvider.otherwise('/home');
 
                 $stateProvider
-                        .state('home', {
-                            url: '/home',
-                            templateUrl: 'app/home/home.html'
-                        })
-                        .state('rules', {
-                            url: '/rules',
-                            templateUrl: 'app/rules/rules.html'
-                        })
-                        .state('project', {
-                            url: '/project',
-                            templateUrl: 'app/projects/projects.html'
-                        })
                         .state('categories', {
                             url: '/categories',
                             templateUrl: 'app/categories/categories.html'
                         });
+
+
+                $stateProvider.state('projects', {
+                    url: '/projects',
+                    controller: 'ProjectsController',
+                    views: {
+                        main: {
+                            templateUrl: 'app/projects/projects.html'
+                        }
+                    }
+                });
+
+                $stateProvider.state('home', {
+                    url: '/home',
+                    controller: 'HomeController',
+                    views: {
+                        main: {
+                            templateUrl: 'app/home/home.html'
+                        }
+                    }
+                });
+                $stateProvider.state('rules', {
+                    url: '/rules',
+                    controller: 'RulesController',
+                    views: {
+                        main: {
+                            templateUrl: 'app/rules/rules.html'
+                        }
+                    }
+                });
+
             });
 })();

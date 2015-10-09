@@ -15,7 +15,6 @@
             }
         }).get().$promise.then(function (events) {
             $scope.activity = events.data;
-            console.log($scope.activity);
         });
 
         $scope.config = {

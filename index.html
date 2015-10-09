@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"  ng-app="codeigniterIdApp" ng-controller="MainController">
 
     <head>
 
@@ -29,7 +29,7 @@
 
     </head>
 
-    <body id="page-top" class="index" ng-app="codeigniterIdApp">
+    <body id="page-top" class="index">
 
         <!-- Navigation -->
         <nav class="navbar navbar-default navbar-fixed-top">
@@ -72,9 +72,12 @@
 
 
         <!-- Categories Grid Section -->
-        <div ui-view class="anim-in-out anim-fade" data-anim-speed="1000"></div>
+        <div ui-view="main" class="anim-in-out anim-slide-right anim-slide-below-fade" data-anim-speed="500" >
+           
+        </div>
 
-        <div ng-include="'app/partials/footer.html'" class="anim-in-out anim-slide-left"></div>
+
+        <div ng-include="'app/partials/footer.html'" ></div>
         <!-- Portfolio Modals -->
         <!-- Use the modals below to showcase details about your portfolio projects! -->
 
@@ -100,9 +103,9 @@
 
 
         <!-- angularjs libs -->
-        <script src="assets/libs/angular.min.js"></script>
-        <script src="assets/libs/angular-animate.min.js"></script>
-        <script src="assets/libs/angular-ui-router.js"></script>
+        <script src="assets/libs/angular/angular.min.js"></script>
+        <script src="assets/libs/angular-animate/angular-animate.min.js"></script>
+        <script src="assets/libs/angular-ui-router/release/angular-ui-router.min.js"></script>
         <script src="assets/libs/angular-resource/angular-resource.min.js"></script>
         <script src="assets/libs/angular-github-activity/release/js/github-activity.min.js"></script>
         <script src="assets/libs/angular-ui-router-anim-in-out/anim-in-out.js"></script>
@@ -116,8 +119,12 @@
 
         <!-- app angularjs -->
         <script src="app/app.module.js"></script>
+        <script src="app/app.config.js"></script>
         <script src="app/app.routes.js"></script>
+        <script src="app/main.controller.js"></script>
         <script src="app/activities/activities.controller.js"></script>
+        <script src="app/rules/rules.controller.js"></script>
+        <script src="app/home/home.controller.js"></script>
 
 
     </body>

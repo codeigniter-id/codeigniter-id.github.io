@@ -26,7 +26,7 @@
  4. Andri Yudatama
  5. Rizqi Maulana
 
-----------
+
 **info tambahan :**
 gunakan media seperti [jsfiddle](https://jsfiddle.net/), dan yang sejenisnya untuk source code agar postingan terlihat lebih simple dan rapi
 

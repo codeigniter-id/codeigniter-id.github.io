@@ -23,6 +23,7 @@
     "angular-github-activity": "~0.1.0",
     "angular-ui-router-anim-in-out": "~0.0.13",
     "angular-markdown-text": "~0.0.2",
-    "angular-sanitize": "~1.4.7"
+    "angular-sanitize": "~1.4.7",
+    "angular": "1.2.26"
   }
 }
