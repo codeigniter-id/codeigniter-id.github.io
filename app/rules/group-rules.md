@@ -15,6 +15,7 @@ Rekan-rekan sekalian selamat datang di group __CodeIgniter Indonesia__ terbesar 
 ## Info Postingan
 
 Jika pertanyaan yang akan diajukan memiliki source code yang ingin ditunjukan kepada member lain atau penjawab, gunakan media seperti:
+
 - [gist](https://gist.github.com)
 - [jsfiddle](https://jsfiddle.net/)
 - [pastebin](http://pastebin.com/)
@@ -26,16 +27,17 @@ Jika pertanyaan yang akan diajukan memiliki source code yang ingin ditunjukan ke
 - dan yang sejenisnya untuk source code agar postingan terlihat lebih simple dan rapi.
 
 Gunakan hashtag jika ingin membuat sebuah postingan (Wajib):
-    - __#‎LOKER_CI‬__ : Untuk lowongan pekerjaan.
-    - __#‎PROJECT_CI‬__ : Untuk project2x (ebook, Library, helper, cms, dll).
-    - __#‎TANYA_CI‬__ : Untuk pertanyaan.
-    - __#‎POLLING_CI‬__ : Untuk polling.
-    - __#‎EVENT_CI‬__ : Untuk info event2(seminar, pelatihan).
-    - __#‎ICEBREAKER_CI‬__ : Postingan yang bersifat santai, guyon, dll.
-    - __#‎QUOTE_CI‬__ : Hidup tak melulu tentang programming.
-    - __#‎ARTIKEL_CI‬__ : Posting yang sifatnya artikel(link, ebook, dll) .
-    - __#INFO_CI__ : Posting yang sifatnya info (ex: beasiswa).
-    - __#‎DISKUSI_CI‬__ : Untuk posting yang bersifat masukan, ide, saran.
+
+- __#‎LOKER_CI‬__ : Untuk lowongan pekerjaan.
+- __#‎PROJECT_CI‬__ : Untuk project2x (ebook, Library, helper, cms, dll).
+- __#‎TANYA_CI‬__ : Untuk pertanyaan.
+- __#‎POLLING_CI‬__ : Untuk polling.
+- __#‎EVENT_CI‬__ : Untuk info event2(seminar, pelatihan).
+- __#‎ICEBREAKER_CI‬__ : Postingan yang bersifat santai, guyon, dll.
+- __#‎QUOTE_CI‬__ : Hidup tak melulu tentang programming.
+- __#‎ARTIKEL_CI‬__ : Posting yang sifatnya artikel(link, ebook, dll) .
+- __#INFO_CI__ : Posting yang sifatnya info (ex: beasiswa).
+- __#‎DISKUSI_CI‬__ : Untuk posting yang bersifat masukan, ide, saran.
 
 Untuk posting yang sudah __SOLVED__, bisa di kasih hashtag ‪__#‎SOLVED_CI‬__ Problem di postingnya.
 
@@ -46,7 +48,7 @@ Jika menemukan postingan yang perlu untuk di hapus bisa mention ke admin di comm
 
 ## Download Source Code CodeIgniter
 
-#### Version 3.0.x (Curent 3.0.2)
+#### Version 3.0.x (current 3.0.2)
 - Archive
     - [Download](https://github.com/bcit-ci/CodeIgniter/archive/3.0.2.zip)
 
@@ -60,7 +62,7 @@ Jika menemukan postingan yang perlu untuk di hapus bisa mention ke admin di comm
     bower install bcit-ci/CodeIgniter
     ```
 
-#### Version 2.0.x (Curent 2.2.5)
+#### Version 2.0.x (current 2.2.5)
 - Archive
     - [Download](https://github.com/bcit-ci/CodeIgniter/archive/2.2.5.zip)
 
