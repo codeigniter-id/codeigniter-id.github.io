@@ -21,6 +21,9 @@
   ],
   "dependencies": {
     "angular-github-activity": "~0.1.0",
-    "angular-ui-router-anim-in-out": "~0.0.13"
+    "angular-ui-router-anim-in-out": "~0.0.13",
+    "angular-markdown-preview": "~0.1.3",
+    "angular-markdown-text": "~0.0.2",
+    "angular-sanitize": "~1.4.7"
   }
 }
