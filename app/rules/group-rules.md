@@ -66,7 +66,7 @@ Jika menemukan postingan yang perlu untuk di hapus bisa mention ke admin di comm
 - Archive
     - [Download](https://github.com/bcit-ci/CodeIgniter/archive/2.2.5.zip)
 
-- Clone (Branch Develop)
+- Clone
     ```
     git clone -b 2.2-stable git@github.com:bcit-ci/CodeIgniter.git
     ```
