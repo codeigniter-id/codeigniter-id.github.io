@@ -1,0 +1,13 @@
+<section ng-controller="ArtikelController">
+    <div class="container">
+      <h2>Kumpulan Artikel</h2>
+      <ul class="list-post" ng-init="getAll()">
+        <li ng-repeat="post in articles">
+          <h3>{{ post.title}}</h2>
+          <p>{{ post.description}}</p>
+          <a href="{{ post.link }}" target="_blank">selengkapnya</a>
+        </li>
+      </ul>
+
+    </div>
+</section>

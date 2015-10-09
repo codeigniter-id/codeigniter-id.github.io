@@ -1,4 +1,4 @@
-/* 
+/*
     Created on : Oct 6, 2015, 2:41:30 PM
     Author     : dev
 */
@@ -15,3 +15,6 @@
 /** angular animations **/
 @import "assets/css/app.animations.css";
 @import "assets/libs/angular-ui-router-anim-in-out/css/anim-in-out.css";
+
+/** list article stylesheet **/
+@import "assets/css/article.css";

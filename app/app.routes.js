@@ -1,4 +1,4 @@
-/* 
+/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -29,6 +29,10 @@
                         .state('categories', {
                             url: '/categories',
                             templateUrl: 'app/categories/categories.html'
+                        })
+                        .state('artikel', {
+                            url: '/artikel',
+                            templateUrl: 'app/artikel/artikel.html'
                         });
             });
 })();
