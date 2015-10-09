@@ -1,0 +1,18 @@
+<section id="portfolio" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading"></h2>
+            </div>
+        </div>
+        <div class="row">     
+		  <div ng-controller="ArticleController">
+			<div ng-repeat="post in posts">
+				<h2><a href='{{post.url}}'>{{post.title}}</a></h2>
+			<div class='time'>{{post.time}} - {{post.author}} </div>
+				<p>{{post.description}}</p>
+			</div>
+		  </div>
+        </div>
+    </div>
+</section>

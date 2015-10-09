@@ -39,6 +39,7 @@
                         }
                     }
                 });
+				
                 $stateProvider.state('rules', {
                     url: '/rules',
                     controller: 'RulesController',
@@ -48,6 +49,15 @@
                         }
                     }
                 });
-
+				
+				$stateProvider.state('article', {
+					url: '/article',
+					controller: 'ArticleController',
+					views: {
+                        main: {
+                            templateUrl: 'app/article/article.html'
+                        }
+                    }
+				});
             });
 })();
