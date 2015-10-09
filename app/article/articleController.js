@@ -7,7 +7,7 @@
 		.controller('ArticleController', ArticleController);
 
 	function ArticleController($scope, $http) {
-		$http({method: 'POST', url: 'app/article/article.json'}).success(function(data) {
+		$http({method: 'GET', url: 'app/article/article.json'}).success(function(data) {
 			$scope.posts = data; // response data 
 			console.log($scope.posts);
 		}).
