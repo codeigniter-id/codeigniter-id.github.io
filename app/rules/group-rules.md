@@ -53,25 +53,29 @@ Jika menemukan postingan yang perlu untuk di hapus bisa mention ke admin di comm
     - [Download](https://github.com/bcit-ci/CodeIgniter/archive/3.0.2.zip)
 
 - Clone
+
     ```
     git clone -b 3.0-stable git@github.com:bcit-ci/CodeIgniter.git
     ```
 
 - Bower
+
     ```
     bower install bcit-ci/CodeIgniter
     ```
 
-#### Version 2.0.x (current 2.2.5)
+#### Version 2.2.x (current 2.2.5)
 - Archive
     - [Download](https://github.com/bcit-ci/CodeIgniter/archive/2.2.5.zip)
 
 - Clone
+
     ```
     git clone -b 2.2-stable git@github.com:bcit-ci/CodeIgniter.git
     ```
 
 - Bower
+
     ```
     bower install bcit-ci/CodeIgniter
     ```
@@ -81,6 +85,7 @@ Jika menemukan postingan yang perlu untuk di hapus bisa mention ke admin di comm
     - [Download](https://github.com/bcit-ci/CodeIgniter/archive/develop.zip)
 
 - Clone
+
     ```
     git clone git@github.com:bcit-ci/CodeIgniter.git
     ```
