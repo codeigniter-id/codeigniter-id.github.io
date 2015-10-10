@@ -1,0 +1,3 @@
+[submodule "user_guide"]
+	path = user_guide
+	url = https://github.com/codeigniter-id/ci-user-guide-id.git
