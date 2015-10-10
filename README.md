@@ -1,15 +1,35 @@
-## [CODEIGNITER INDONESIA LANDING PAGE](codeigniter-id.github.io) 
+# [CodeIgniter Indonesia Landing Page](http://codeigniter-id.github.io)
 
-[codeigniter-id.github.io](http://codeigniter-id.github.io) merupakan kumpulan info seputar codeigniter framework indonesia, disini akan di update beberapa informasi yang bermanfaat yang berhubungan dengan codeigniter
+[![Join the chat at https://gitter.im/codeigniter-id](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/codeigniter-id?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-## Menu utama
+Repository [codeigniter-id.github.io](http://codeigniter-id.github.io) merupakan kumpulan informasi seputar framework codeigniter indonesia, disini akan di update beberapa informasi yang bermanfaat yang berhubungan dengan codeigniter
 
-* Kategori
-* Tentang 
-* Team
+## Dependency
 
+gh-page codeigniter ini dibangun dengan
 
-web ini di buat dengan menggunakan static html dan angularjs , 
-untuk dokumentasi aturan penulisan angularjs bisa di lihat di [sini](https://github.com/johnpapa/angular-styleguide)
+* jQuery
+* AngularJS
+* Twitter Bootstrap
+* Google Font API
+
+Web gh-page ini di buat dengan menggunakan static `HTML` dan `AngularJS`, 
+untuk dokumentasi aturan penulisan AngularJS bisa dilihat repostory [Angular Style Guide](https://github.com/johnpapa/angular-styleguide)
+
+## Module
+
+gh-page codeigniter indonesia ini kami menyediakan module seperti:
+
+* ARTIKEL
+* PROJECTS 
+* User Guide
+* Build with
+
+## Contributing
+
+* [Read Contributing](blob/master/CONTRIBUTING.md)
+
+## License
+- [Apache License](LICENSE)
 
 
