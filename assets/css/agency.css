@@ -877,3 +877,14 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #fed136;
 }
+
+
+.team-member .img-thumbnail {
+
+    display: inline-block;
+    height: auto;
+    line-height: 1.42857;
+    max-width: 50%;
+    padding: 4px;
+    transition: all 0.2s ease-in-out 0s;
+}
