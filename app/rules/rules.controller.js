@@ -14,7 +14,7 @@
     RulesController.$inject = ['$scope'];
 
     function RulesController($scope) {
-        
+
         $scope.$on('animIn', function () {
             console.log('Page1Ctrl: animIn');
         });
