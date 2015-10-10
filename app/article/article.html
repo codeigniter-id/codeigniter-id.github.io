@@ -6,13 +6,15 @@
             </div>
         </div>
         <div class="row">     
-		  <div ng-controller="ArticleController">
-			<div ng-repeat="post in posts">
-				<h2><a href='{{post.url}}'>{{post.title}}</a></h2>
-			<div class='time'>{{post.time}} - {{post.author}} </div>
-				<p>{{post.description}}</p>
-			</div>
-		  </div>
+            <div ng-controller="ArticleController">
+
+                <div ng-repeat="post in postData">
+                    <h3><a href='{{post.url}}'>{{post.title}}</a></h3>
+                    <div class='time'>{{post.time}} - {{post.author}} </div>
+                    <p>{{post.description}}</p>
+                </div>
+
+            </div>
         </div>
     </div>
 </section>
