@@ -50,6 +50,15 @@
                     }
                 });
 
+
+                $stateProvider.state('awesome-ci', {
+                    url: '/awesome-ci',
+                    views: {
+                        main: {
+                            templateUrl: 'app/awsci/awsci.html'
+                        }
+                    }
+                });
                 $stateProvider.state('article', {
                     url: '/article',
                     controller: 'ArticleController',
