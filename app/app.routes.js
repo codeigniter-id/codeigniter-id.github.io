@@ -58,6 +58,14 @@
                             templateUrl: 'app/article/article.html'
                         }
                     }
+                }).state('article.detail', {
+                    url: '/article-detail',
+                    controller: 'ArticleController',
+                    views: {
+                        main: {
+                            templateUrl: 'app/article/article.detail.html'
+                        }
+                    }
                 });
             });
 })();
