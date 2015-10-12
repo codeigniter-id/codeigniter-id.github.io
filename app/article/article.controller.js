@@ -37,7 +37,7 @@
 
         $scope.posts = db.getCollection('posts') || db.addCollection('posts');
         $scope.posts.insert({
-            title: 'welcome to codeigniter indonesia',
+            title: 'Bagaimana mengintegrasikan  hmv',
             "url": "codeigniter-id.github.id/article/welcome-to-ci",
             "description": "Some Tesxt",
             "time": "Tuesday, August 6, 2015",
@@ -45,7 +45,7 @@
         });
 
         $scope.posts.insert({
-            title: 'welcome to codeigniter indonesia again',
+            title: 'menambahkan composer support pada codeigniter 3',
             "url": "codeigniter-id.github.id/article/welcome-to-ci",
             "description": "Some Tesxt",
             "time": "Tuesday, August 6, 2015",
