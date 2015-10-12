@@ -58,12 +58,11 @@
                             templateUrl: 'app/article/article.html'
                         }
                     }
-                }).state('article.detail', {
-                    url: '/article-detail',
-                    controller: 'ArticleController',
+                }).state('article-detail', {
+                    url: '/article/detail',
                     views: {
                         main: {
-                            templateUrl: 'app/article/article.detail.html'
+                            templateUrl: 'app/article/article-detail.html'
                         }
                     }
                 });
