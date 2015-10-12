@@ -1,48 +1,62 @@
-<section id="portfolio" class="bg-light-gray">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading"></h2>
-            </div>
-        </div>
+<section id="portfolio" class="bg-light-gray" ng-controller="ArticleController" >
+    <div class ="container">
+
         <div class="row">     
-            <div ng-controller="ArticleController">
+
+            <div class="col-md-8">
 
 
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <h2 class="section-heading"></h2>
-                        </div>
-                    </div>
-                    <div class="row">
-
-                        <div ng-repeat="post in postData">
+                <div ng-repeat="post in postData">
 
 
-                            <div class="col-md-3 col-sm-6 portfolio-item">
-                                <a href="#article-detail" class="portfolio-link" data-toggle="modal">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content">
-                                            <i class="fa fa-plus fa-3x"></i>
-                                        </div>
-                                    </div>
-                                    <img src="assets/img/portfolio/startup-framework.png" class="img-responsive" alt="">
-                                </a>
-                                <div class="portfolio-caption">
-                                    <h4><a href="#article-detail">{{post.title}}</a></h4>
-                                    <p class="text-muted"></p>
+                    <div class="col-md-6 col-sm-6 portfolio-item">
+                        <a ui-sref="article-detail" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
                                 </div>
                             </div>
-
+                            <img src="assets/img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4><a ui-sref="article-detail">{{post.title}}</a></h4>
+                            <p class="text-muted"></p>
                         </div>
-
                     </div>
+
                 </div>
-
-
-
             </div>
+            <div class="col-md-4">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Cari Artikel">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">Cari!</button>
+                    </span>
+                </div><!-- /input-group -->
+
+
+                <aside id="sparkling-cats-2" class="widget sparkling-cats"><h3 class="widget-title">Kategori Tutorial</h3>
+
+                    <div class="cats-widget">
+
+                        <ul>	<li class="cat-item cat-item-2"><a href="http://belajarphp.net/category/codeigniter/" title="tutorial codeigniter lengkap bahasa indonesia">Library</a> <span>14</span>
+                            </li>
+                            <li class="cat-item cat-item-7"><a href="http://belajarphp.net/category/tutorial-premium/" title="paket video tutorial web development bahasa indonesia">Tips trik</a> <span>5</span>
+                            </li>
+                            <li class="cat-item cat-item-3"><a href="http://belajarphp.net/category/jquery-ajax/">Info</a> <span>3</span>
+                            </li>
+                            <li class="cat-item cat-item-54"><a href="http://belajarphp.net/category/tutorial-laravel/" title="tutorial laravel 5 pemula bahasa indonesia">Event</a> <span>3</span>
+                            </li>
+                        </ul>
+
+                    </div><!-- end widget content -->
+
+                </aside>
+            </div>
+
+
         </div>
+
+
     </div>
 </section>
