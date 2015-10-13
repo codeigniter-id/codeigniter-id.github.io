@@ -35,39 +35,42 @@
 
 
 
+
         $scope.posts = db.getCollection('posts') || db.addCollection('posts');
-        $scope.posts.insert({
-            title: 'Bagaimana mengintegrasikan  hmv',
-            "url": "codeigniter-id.github.id/article/welcome-to-ci",
-            "description": "Some Tesxt",
-            "time": "Tuesday, August 6, 2015",
-            "author": "Putera kahfi"
-        });
 
-        $scope.posts.insert({
-            title: 'menambahkan composer support pada codeigniter 3',
-            "url": "codeigniter-id.github.id/article/welcome-to-ci",
-            "description": "Some Tesxt",
-            "time": "Tuesday, August 6, 2015",
-            "author": "Putera kahfi"
-        });
+        for (var i = 0; i < 10; i++) {
+            $scope.posts.insert({
+                title: 'Bagaimana mengintegrasikan  hmv',
+                "url": "codeigniter-id.github.id/article/welcome-to-ci",
+                "description": "Some Tesxt",
+                "time": "Tuesday, August 6, 2015",
+                "author": "Putera kahfi"
+            });
 
-        $scope.posts.insert({
-            title: 'welcome to codeigniter indonesia more',
-            "url": "codeigniter-id.github.id/article/welcome-to-ci",
-            "description": "Some Tesxt",
-            "time": "Tuesday, August 6, 2015",
-            "author": "Putera kahfi"
-        });
+            $scope.posts.insert({
+                title: 'menambahkan composer support pada codeigniter 3',
+                "url": "codeigniter-id.github.id/article/welcome-to-ci",
+                "description": "Some Tesxt",
+                "time": "Tuesday, August 6, 2015",
+                "author": "Putera kahfi"
+            });
 
-        $scope.posts.insert({
-            title: 'welcome to codeigniter indonesia more',
-            "url": "codeigniter-id.github.id/article/welcome-to-ci",
-            "description": "Some Tesxt",
-            "time": "Tuesday, August 6, 2015",
-            "author": "Putera kahfi"
-        });
+            $scope.posts.insert({
+                title: 'welcome to codeigniter indonesia more',
+                "url": "codeigniter-id.github.id/article/welcome-to-ci",
+                "description": "Some Tesxt",
+                "time": "Tuesday, August 6, 2015",
+                "author": "Putera kahfi"
+            });
 
+            $scope.posts.insert({
+                title: 'welcome to codeigniter indonesia more',
+                "url": "codeigniter-id.github.id/article/welcome-to-ci",
+                "description": "Some Tesxt",
+                "time": "Tuesday, August 6, 2015",
+                "author": "Putera kahfi"
+            });
+        }
 
 
         db.loadDatabase({}, function () {
