@@ -50,7 +50,6 @@
                     }
                 });
 
-
                 $stateProvider.state('awesome-ci', {
                     url: '/awesome-ci',
                     views: {
@@ -59,6 +58,7 @@
                         }
                     }
                 });
+
                 $stateProvider.state('article', {
                     url: '/article',
                     controller: 'ArticleController',
