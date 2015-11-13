@@ -5,15 +5,15 @@ Hi all, Remember every friday is english day. So, don't hesitate to posting your
 
 _Best Regards, Admins_
 
-## Info Member
 
+## Info Member
 Rekan-rekan sekalian selamat datang di group __CodeIgniter Indonesia__ terbesar di facebook group page.
 
 - Bagi member yang belum terdaftar, silakan isi data disini _(Gratis!)_ : [http://goo.gl/z3rmlK](http://goo.gl/z3rmlK)
 - List member : [http://goo.gl/RIN6Sj](http://goo.gl/RIN6Sj)
 
-## Info Postingan
 
+## Info Postingan
 Jika pertanyaan yang akan diajukan memiliki source code yang ingin ditunjukan kepada member lain atau penjawab, gunakan media seperti:
 
 - [gist](https://gist.github.com)
@@ -25,6 +25,12 @@ Jika pertanyaan yang akan diajukan memiliki source code yang ingin ditunjukan ke
 - [phpfiddle](http://phpfiddle.org/)
 - [sqlfiddle](http://sqlfiddle.com/)
 - dan yang sejenisnya untuk source code agar postingan terlihat lebih simple dan rapi.
+
+Contoh memasukkan source code. Example: [gist](https://gist.github.com):
+
+
+![codeigniter indonesia](https://lh3.googleusercontent.com/-XUPWeP_fOSE/Vjoe6d8jkdI/AAAAAAAAA-s/kD690H8zM-4/w894-h594-no/best_ASK_coding.gif)
+
 
 Gunakan hashtag jika ingin membuat sebuah postingan (Wajib):
 
@@ -47,10 +53,9 @@ Sebagai contoh :
 Jika menemukan postingan yang perlu untuk di hapus bisa mention ke admin di comment postingan tsb, agar bisa langsung di tindak lanjuti.
 
 ## Download Source Code CodeIgniter
-
-#### Version 3.0.x (current 3.0.2)
+##### Version 3 stable (current 3.0.3)
 - Archive
-    - [Download](https://github.com/bcit-ci/CodeIgniter/archive/3.0.2.zip)
+    - [Download](https://github.com/bcit-ci/CodeIgniter/archive/3.0-stable.zip)
 
 - Clone
 
@@ -61,12 +66,12 @@ Jika menemukan postingan yang perlu untuk di hapus bisa mention ke admin di comm
 - Bower
 
     ```
-    bower install bcit-ci/CodeIgniter
+    bower install bcit-ci/CodeIgniter#3.0-stable
     ```
 
-#### Version 2.2.x (current 2.2.5)
+##### Version 2 stable (current 2.2.6)
 - Archive
-    - [Download](https://github.com/bcit-ci/CodeIgniter/archive/2.2.5.zip)
+    - [Download](https://github.com/bcit-ci/CodeIgniter/archive/2.2-stable.zip)
 
 - Clone
 
@@ -77,10 +82,10 @@ Jika menemukan postingan yang perlu untuk di hapus bisa mention ke admin di comm
 - Bower
 
     ```
-    bower install bcit-ci/CodeIgniter
+    bower install bcit-ci/CodeIgniter#2.2-stable
     ```
 
-#### Branch Develop
+##### Branch Develop
 - Archive
     - [Download](https://github.com/bcit-ci/CodeIgniter/archive/develop.zip)
 
@@ -90,10 +95,18 @@ Jika menemukan postingan yang perlu untuk di hapus bisa mention ke admin di comm
     git clone git@github.com:bcit-ci/CodeIgniter.git
     ```
 
+- Bower
 
-## [Wiki CodeIgniter](https://github.com/EllisLab/CodeIgniter/wiki)
+    ```
+    bower install bcit-ci/CodeIgniter
+    ```
 
-    
+
+## Wiki CodeIgniter
+__[Welcome to the CodeIgniter Wiki](https://github.com/EllisLab/CodeIgniter/wiki)__
+
+
+## Common Problem
 Untuk common problem seputar di group CodeIgniter Indonesia :
 
 - [__[BEGINNER]__](https://www.facebook.com/notes/codeigniter-indonesia/beginner-solved-ci-common-problems/10152089424375337)
@@ -104,8 +117,7 @@ Untuk common problem seputar di group CodeIgniter Indonesia :
 - [__Kumpulan Artikel__](https://www.facebook.com/groups/codeigniter.id/permalink/10152161288245337/)
 
 
-__Khusus untuk yang mau buka lapak__
-
+## Khusus untuk yang mau buka lapak
 Anda boleh berjualan di sini, dengan syarat:
 
 1. produknya berhubungan dengan CI
@@ -116,7 +128,6 @@ Anda boleh berjualan di sini, dengan syarat:
 
 
 ## Info Admin
-
  1. Elvis Sonatha
  2. Yugo Purwanto
  3. Putera Kahfi
