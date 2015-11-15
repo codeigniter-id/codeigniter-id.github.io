@@ -20,16 +20,16 @@ untuk dokumentasi aturan penulisan AngularJS bisa dilihat repostory [Angular Sty
 
 gh-page codeigniter indonesia ini kami menyediakan module seperti:
 
-* ARTIKEL
-* PROJECTS 
+* Artikel
+* Project 
 * User Guide
 * Build with
 
 ## Contributing
 
-* [Read Contributing](blob/master/CONTRIBUTING.md)
+* [CONTRIBUTING.md](blob/master/CONTRIBUTING.md)
 
 ## License
-- [Apache License](LICENSE)
+[![Crates.io](https://img.shields.io/crates/l/rustc-serialize.svg)](LICENSE)
 
 
