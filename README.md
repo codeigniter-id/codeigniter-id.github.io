@@ -25,6 +25,10 @@ gh-page codeigniter indonesia ini kami menyediakan module seperti:
 * User Guide
 * Build with
 
+## Running server menggunakan node
+jalankan perintah node server.js
+
+
 ## Contributing
 
 * [CONTRIBUTING.md](blob/master/CONTRIBUTING.md)
