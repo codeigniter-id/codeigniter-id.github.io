@@ -59,6 +59,16 @@
                     }
                 });
 
+
+                $stateProvider.state('screencast', {
+                    url: '/screencast',
+                    views: {
+                        main: {
+                            templateUrl: 'app/screencast/screencast.html'
+                        }
+                    }
+                });
+
                 $stateProvider.state('article', {
                     url: '/article',
                     controller: 'ArticleController',
