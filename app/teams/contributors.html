@@ -1,4 +1,4 @@
-<section id="contributors" class="bg-light-gray" ng-controller="TeamsController" >
+<section id="contributors" class="bg-light-gray" ng-controller="TeamsController as contributor" >
 
 
 
@@ -10,20 +10,30 @@
                 </div>
             </div>
             <div class="row text-center">
-                <div ng-repeat="contributor in contributors">
+                <div ng-repeat="contributor in contributors" ng-init="user=contributor.login">
                     <div class="col-sm-3">
                         <div class="team-member">
                             <img alt="" class="img-responsive img-circle img-thumbnail" src="{{contributor.avatar_url}}">
                             <h4><a target="__blank" href="{{contributor.html_url}}">{{contributor.login}}</a></h4>
                             <!-- <p class="text-muted">Lead Designer</p> gimana ya ngelooping "url" dari tiap kontributor yang ada, mau ngambil data dari "company" or etc -->
-                            <ul class="list-inline social-buttons" style="display: none;">
-                                <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            {{user}}
+
+                            {{ getDetailContributor(contributor.login)}}
+
+                             <div ng-repeat="detail in details">
+                                 {{details.email}}
+                             </div>
+                          
+                            <div ng-repeat="detail in getContributorDetail(contributor.login)">
+                            <ul class="list-inline social-buttons">
+                                <li><a href="#"><i class="fa fa-website">{{detail.blog}}</i></a>
                                 </li>
                                 <li><a href="#"><i class="fa fa-facebook"></i></a>
                                 </li>
                                 <li><a href="#"><i class="fa fa-linkedin"></i></a>
                                 </li>
                             </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
