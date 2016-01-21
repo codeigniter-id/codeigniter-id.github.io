@@ -50,6 +50,8 @@ Untuk posting yang sudah __SOLVED__, bisa di kasih hashtag ‪__#‎SOLVED_CI‬
 Sebagai contoh :
 > __#SOLVED_CI__ "access forbidden"
 
+- __Berikan komentar yang bermutu__
+
 Jika menemukan postingan yang perlu untuk di hapus bisa mention ke admin di comment postingan tsb, agar bisa langsung di tindak lanjuti.
 
 ## Download Source Code CodeIgniter
