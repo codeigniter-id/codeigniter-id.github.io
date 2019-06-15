@@ -1,0 +1,74 @@
+@import "bulma/sass/utilities/initial-variables.sass";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://use.fontawesome.com/releases/v5.2.0/css/all.css");
+@import "bulma.scss";
+@import "helpers.scss";
+
+body {
+  background: #fafafa;
+}
+
+.tabs.is-boxed li.is-active a {
+  background-color: #fafafa;
+  border-color: #dbdbdb;
+  border-bottom-color: transparent !important;
+}
+
+h1 {
+  font-size: $size-1;
+}
+
+h2 {
+  font-size: $size-2;
+}
+
+h3 {
+  font-size: $size-3;
+}
+
+h4 {
+  font-size: $size-4;
+}
+
+.avatar {
+  padding: 3px;
+  height: auto;
+  border: none;
+  box-shadow: none;
+}
+
+.github-octicon {
+  font: normal normal 40px octicons;
+}
+
+.github-profile,
+.github-profile:hover {
+  color: #495961;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.button {
+  &.facebook {
+    background: #4267b2;
+    color: white;
+  }
+
+  &.telegram {
+    background: #269acd;
+    color: white;
+  }
+
+  &.github {
+    background: #313030;
+    color: white;
+  }
+}
+
+.navbar {
+  background-color: #FAFAFA;
+  min-height: 3.25rem;
+  position: relative;
+  z-index: 30;
+}
