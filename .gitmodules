@@ -1,6 +1,0 @@
-[submodule "user_guide"]
-	path = user_guide
-	url = https://github.com/codeigniter-id/user-guide.git
-[submodule "app/awesome-ci"]
-	path = app/awesome-ci
-	url = https://github.com/codeigniter-id/awesome-codeigniter.git
