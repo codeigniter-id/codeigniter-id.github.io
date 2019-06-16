@@ -22,14 +22,14 @@
             class="content has-text-grey-darker has-margin-bottom-10 is-family-secondary"
           >{{edge.node.description}}</div>
 
-          <span class="has-padding-top-15 is-size-7">
-            <i class="fas fa-share"></i>
-            Share:
-          </span>
-
+          <hr class="has-margin-top-15">
           <social-sharing :url="url+edge.node.path" inline-template>
             <div>
-              <network network="facebook" class="button is-white is-marginless has-padding-left-5">
+              <span class="has-padding-top-15 is-size-7">
+                <i class="fas fa-share has-margin-top-10"></i>
+                Share
+              </span>
+              <network network="facebook" class="button is-white is-marginless">
                 <i class="fab fa-facebook"></i>
               </network>
               <network network="linkedin" class="button is-white">

@@ -19,13 +19,9 @@ module.exports = {
       }
     },
     {
-      use: "@gridsome/source-filesystem",
+      use: '@gridsome/plugin-google-analytics',
       options: {
-        path: "content/event/**/*.md",
-        typeName: "Event",
-        remark: {
-          // remark options
-        }
+        id: 'UA-142214360-1'
       }
     }
   ],

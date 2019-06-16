@@ -1,12 +1,10 @@
 <template>
   <Layout>
-    <span class="has-padding-top-15 is-size-7">
-      <i class="fas fa-share"></i>
-      Share:
-    </span>
-    <social-sharing :url="$page.post.path" inline-template>
-      <div>
-        <network network="facebook" class="button is-white is-marginless has-padding-left-5">
+    <h1 class="title has-margin-top-20">{{ $page.post.title }}</h1>
+
+    <social-sharing class="has-margin-bottom-20" :url="$page.post.path" inline-template>
+      <div class="buttons"><source srcset="" type="image/">
+        <network network="facebook" class="button is-white">
           <i class="fab fa-facebook"></i>
         </network>
         <network network="linkedin" class="button is-white">
@@ -23,13 +21,9 @@
         </network>
       </div>
     </social-sharing>
-
-    <h1 class="title has-margin-top-20">{{ $page.post.title }}</h1>
-
     <div v-html="$page.post.content" class="has-margin-bottom-50"/>
 
     <vue-disqus shortname="codeigniter-id" :identifier="$page.post.title"></vue-disqus>
-
   </Layout>
 </template>
 
