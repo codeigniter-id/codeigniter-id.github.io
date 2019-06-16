@@ -1,6 +1,6 @@
 <template>
   <div class="columns is-multiline">
-    <div class="column is-6" v-for="edge in $static.posts.edges" :key="edge.node.id">
+    <div class="column is-6" v-for="edge in data" :key="edge.node.id">
       <div class="card has-equal-height is-marginless">
         <div class="card-content">
           <div class="media has-margin-bottom-10">
@@ -13,12 +13,14 @@
               </p>
 
               <p
-                class="subtitle is-7 has-text-grey-darker has-margin-bottom-5 has-text-weight-semibold	"
-              >Tanggal Posting : {{edge.node.date}}</p>
+                class="subtitle is-7 has-text-grey-darker has-margin-bottom-5 has-text-weight-semibold"
+              >Tanggal : {{edge.node.date}}</p>
             </div>
           </div>
 
-          <div class="content has-text-grey-darker has-margin-bottom-10 is-family-secondary	" >{{edge.node.description}}</div>
+          <div
+            class="content has-text-grey-darker has-margin-bottom-10 is-family-secondary"
+          >{{edge.node.description}}</div>
 
           <span class="has-padding-top-15 is-size-7">
             <i class="fas fa-share"></i>
@@ -53,39 +55,19 @@
 
 <script>
 export default {
+  props: ["data"],
+
   data() {
     return {
       url: ""
     };
   },
   mounted() {
-    this.url = window.location.origin ;
+    this.url = window.location.origin;
   }
 };
 </script>
 
-
-<static-query>
-
-query Posts {
-  posts: allPost( filter: { published: { eq: true }}, sortBy: "date",  limit: 5, order: DESC)  {
-    edges {
-      node { 
-        id
-        author
-        published
-        date (format: "D MMMM YYYY")
-        title
-        description
-        category
-        path
-        cover_image
-      }
-    }
-  }
-}
-
-</static-query>
 
 <style lang="scss" scoped>
 .card {

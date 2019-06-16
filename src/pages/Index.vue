@@ -4,11 +4,11 @@
       <div class="column is-5">
         <!-- Learn how to use images here: https://gridsome.org/docs/images -->
 
-        <img
+        <g-image
           src="https://scontent-sin6-1.xx.fbcdn.net/v/t1.0-9/12803255_10206961661254942_8404149022163356260_n.jpg?_nc_cat=103&_nc_ht=scontent-sin6-1.xx&oh=3dc359e980ba816255f2653aa81ee487&oe=5DC71CD8"
           alt
-        >
-        <h1 class="title is-3 has-margin-bottom-20">Codeigniter Indonesia</h1>
+        />
+        <h1 class="title is-4 has-margin-bottom-10">Codeigniter Indonesia</h1>
 
         <p class="is-size-6 is-family-secondary">
           Codeigniter Indonesia merupakan wadah tempat berkumpulnya pengguna Codeigniter Framework khususnya di Indonesia
@@ -51,8 +51,13 @@
         </b-tabs>
       </div>
       <div class="column is-7">
-        <h1 class="title is-5">Info Terbaru </h1>
-        <LatestInfo/>
+        <h1 class="title is-6">Info Terbaru</h1>
+        <LatestInfo class="has-margin-bottom-20"/>
+        <h1 class="title is-6">Event Terbaru</h1>
+        <LatestEvent  class="has-margin-bottom-20"/>
+
+        <h1 class="title is-6">Lowongan Terbaru</h1>
+        <LatestJob/>
       </div>
     </div>
     <div class="columns">
@@ -66,6 +71,10 @@ import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import Contributors from "~/components/Contributors.vue";
 import LatestPosting from "~/components/LatestPosting.vue";
 import LatestInfo from "~/components/LatestInfo.vue";
+import LatestEvent from "~/components/LatestEvent.vue";
+import LatestJob from "~/components/LatestJob.vue";
+
+import PostingCard from "~/components/PostingCard.vue";
 
 export default {
   data() {
@@ -80,15 +89,39 @@ export default {
   components: {
     Contributors,
     LatestPosting,
-    LatestInfo
+    LatestInfo,
+    LatestEvent,
+    LatestJob
   },
   mounted() {
     this.$snackbar.open(
-      `Default, positioned bottom-right with a green 'OK' button`
+      `Website codeigniter indonesia masih dalam proses pengembangan`
     );
   }
 };
 </script>
+
+
+<page-query>
+
+query Events {
+  events: allPost (filter: {category: { eq:"event"} ,published: {eq:true}}sortBy : "date"){
+    edges {
+      node { 
+        id
+        title
+        author
+        by
+        description
+        cover_image
+        path
+        category
+      }
+    }
+  }
+}
+
+</page-query>
 
 <style>
 .home-links a {

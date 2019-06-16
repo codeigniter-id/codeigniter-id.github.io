@@ -1,6 +1,6 @@
 <template>
   <div>
-    <PostingCard :data="$static.info.edges"/>
+    <PostingCard :data="$static.events.edges"/>
   </div>
 </template>
 
@@ -18,8 +18,8 @@ export default {
 
 <static-query>
 
-query Info {
-  info: allPost( filter: { category: { eq:"info"} , published: { eq: true }}, sortBy: "date",  limit: 5, order: DESC)  {
+query Event {
+  events: allPost( filter: { category: { eq:"event"} , published: { eq: true }}, sortBy: "date",  limit: 5, order: DESC)  {
     edges {
       node { 
         id
@@ -37,3 +37,4 @@ query Info {
 }
 
 </static-query>
+

@@ -10,6 +10,8 @@ import "bulma-helpers/css/bulma-helpers.min.css";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import "~/assets/style/main.scss";
 
+import VueDisqus from "vue-disqus";
+
 export default function(Vue, { router, head, isClient }) {
   head.link.push({
     rel: "stylesheet",
@@ -25,4 +27,5 @@ export default function(Vue, { router, head, isClient }) {
 
   Vue.use(SocialSharing);
   Vue.use(VueGithubActivity);
+  Vue.use(VueDisqus);
 }

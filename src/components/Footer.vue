@@ -16,7 +16,7 @@
             <a
               href="http://www.bcit.ca/cas/computing/"
             >British Columbia Institute of Technology</a>
-          </p> 
+          </p>
           <br>
 
           <nav class="level">
@@ -90,10 +90,12 @@
       </div>
       <hr>
 
-      <div class="has-margin-top-10 is-size-7 is-inline-flex">
+      <div class="has-margin-top-10 is-size-6 has-text-danger	 is-inline-flex">
         <g-link class="has-margin-right-10" to="/content/group-rules">facebook group rules</g-link>
 
         <g-link class="has-margin-right-10" to="/about">about</g-link>
+
+        <g-link class="has-margin-right-10" href="https://github.com/codeigniter-id/codeigniter-id.github.io/issues" target="_blank">saran-ide-bug</g-link>
       </div>
     </div>
   </footer>

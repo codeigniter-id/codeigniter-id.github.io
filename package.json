@@ -22,6 +22,7 @@
     "bulma-helpers": "^0.3.8",
     "gh-pages": "^2.0.1",
     "gridsome": "^0.6.0",
+    "vue-disqus": "^3.0.5",
     "vue-github-activity": "^2.1.1",
     "vue-social-sharing": "^2.4.5"
   },
