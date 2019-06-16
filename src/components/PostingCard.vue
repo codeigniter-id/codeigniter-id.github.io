@@ -5,8 +5,8 @@
         <div class="card-content">
           <div class="media has-margin-bottom-10">
             <div class="media-content">
-              <p class="subtitle is-7">
-                <span class="tag is-info">{{edge.node.category}}</span>
+              <p class="subtitle is-6">
+                <span class=" is-info">{{edge.node.category}}</span>
               </p>
               <p class="title is-4 has-margin-bottom-30">
                 <g-link class="has-text-grey-darker" :to="edge.node.path">{{edge.node.title}}</g-link>

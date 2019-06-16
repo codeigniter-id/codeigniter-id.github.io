@@ -2,31 +2,15 @@
   <Layout>
     <div class="columns">
       <div class="column is-5">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image">
-              <g-image
-                src="https://scontent-sin6-1.xx.fbcdn.net/v/t1.0-9/12803255_10206961661254942_8404149022163356260_n.jpg?_nc_cat=103&_nc_ht=scontent-sin6-1.xx&oh=3dc359e980ba816255f2653aa81ee487&oe=5DC71CD8"
-                alt
-              />
-            </figure>
-          </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-content">
-                <p class="title is-4">Codeigniter Indonesia</p>
-              </div>
-            </div>
-
-            <div class="content">
-              <p class="is-size-6 is-family-secondary">
-                Codeigniter Indonesia merupakan wadah tempat berkumpulnya pengguna Codeigniter Framework khususnya di Indonesia
-                Codeigniter sendiri merupakan php Framework MVC yang bersifat free dan opensource
-              </p>
-            </div>
-
-          </div>
-        </div>
+        <g-image
+          src="https://scontent-sin6-1.xx.fbcdn.net/v/t1.0-9/12803255_10206961661254942_8404149022163356260_n.jpg?_nc_cat=103&_nc_ht=scontent-sin6-1.xx&oh=3dc359e980ba816255f2653aa81ee487&oe=5DC71CD8"
+          alt
+        />
+        <p class="title is-4 has-margin-top-10 has-margin-bottom-5">Codeigniter Indonesia</p>
+        <p class="is-size-6 is-family-secondary ">
+          Codeigniter Indonesia merupakan wadah tempat berkumpulnya pengguna Codeigniter Framework khususnya di Indonesia
+          Codeigniter sendiri merupakan php Framework MVC yang bersifat free dan opensource
+        </p>
 
         <!-- Learn how to use images here: https://gridsome.org/docs/images -->
 
