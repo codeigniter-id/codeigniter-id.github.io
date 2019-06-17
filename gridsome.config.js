@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteUrl: 'https://codeigniter-id.github.io',
+  siteUrl: "https://codeigniter-id.github.io",
   siteName: "Codeigniter Indonesia",
   plugins: [
     {
@@ -19,23 +19,30 @@ module.exports = {
       }
     },
     {
-      use: '@gridsome/plugin-google-analytics',
+      use: "@gridsome/source-filesystem",
       options: {
-        id: 'UA-142214360-1'
+        path: "content/job/**/*.md",
+        typeName: "Job",
+        remark: {
+          // remark options
+        }
+      }
+    },
+    {
+      use: "@gridsome/plugin-google-analytics",
+      options: {
+        id: "UA-142214360-1"
       }
     }
   ],
 
-
   transformers: {
     //Add markdown support to all file-system sources
     remark: {
-      externalLinksTarget: '_blank',
-      externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
-      anchorClassName: 'icon icon-link',
-      plugins: [
-        '@gridsome/remark-prismjs'
-      ]
+      externalLinksTarget: "_blank",
+      externalLinksRel: ["nofollow", "noopener", "noreferrer"],
+      anchorClassName: "icon icon-link",
+      plugins: ["@gridsome/remark-prismjs"]
     }
   }
 };
