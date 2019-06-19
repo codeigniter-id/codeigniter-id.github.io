@@ -18,6 +18,12 @@ export default function(Vue, { router, head, isClient }) {
     href: "https://fonts.googleapis.com/icon?family=Material+Icons"
   });
 
+   // Add an external Javascript before the closing </body> tag
+   head.script.push({
+    src: 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3&appId=451797311575816&autoLogAppEvents=1',
+    crossorigin:"anonymous" 
+  })
+
   // Set default layout as a global component
   Vue.component("Layout", DefaultLayout);
   Vue.component("font-awesome", FontAwesomeIcon);

@@ -6,9 +6,9 @@
           <div class="media has-margin-bottom-10">
             <div class="media-content">
               <p class="subtitle is-6">
-                <span class=" is-info">{{edge.node.category}}</span>
+                <span class="is-info">{{edge.node.category}}</span>
               </p>
-              <p class="title is-4 has-margin-bottom-30">
+              <p class="title is-5 has-margin-bottom-30">
                 <g-link class="has-text-grey-darker" :to="edge.node.path">{{edge.node.title}}</g-link>
               </p>
 
@@ -71,7 +71,11 @@ export default {
 
 <style lang="scss" scoped>
 .card {
-  border: none !important;
+  border-radius: 5px;
   box-shadow: none !important;
+  border: 1px solid #f3f6f9 !important;
+  &:hover {
+    box-shadow: 0 14px 24px 0 #e3e8ee !important;
+  }
 }
 </style>

@@ -22,8 +22,7 @@
       </div>
     </social-sharing>
     <div v-html="$page.post.content" class="has-margin-bottom-50"/>
-
-    <vue-disqus shortname="codeigniter-id" :identifier="$page.post.title"></vue-disqus>
+<div class="fb-comments" data-href="https://codeigniter-id.github.io/" data-width="100%" data-numposts="5"></div>
   </Layout>
 </template>
 
