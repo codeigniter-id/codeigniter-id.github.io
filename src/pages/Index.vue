@@ -7,7 +7,7 @@
           alt
         />
         <p class="title is-4 has-margin-top-10 has-margin-bottom-5">Codeigniter Indonesia</p>
-        <p class="is-size-6 is-family-secondary ">
+        <p class="is-size-6 is-family-secondary">
           Codeigniter Indonesia merupakan wadah tempat berkumpulnya pengguna Codeigniter Framework khususnya di Indonesia
           Codeigniter sendiri merupakan php Framework MVC yang bersifat free dan opensource
         </p>
@@ -36,10 +36,11 @@
       </div>
       <div class="column is-7">
         <h1 class="title is-6 has-margin-bottom-10">Info Terbaru</h1>
+        <LatestInfo class="has-margin-bottom-20"/>
         <h1 class="title is-6 has-margin-bottom-10">Event Terbaru</h1>
 
         <h1 class="title is-6 has-margin-bottom-10">Lowongan Terbaru</h1>
-        <LatestJob />
+        <LatestJob/>
       </div>
     </div>
     <div class="columns">
@@ -52,6 +53,7 @@
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import Contributors from "~/components/Contributors.vue";
 import LatestJob from "~/components/LatestJob.vue";
+import LatestInfo from "~/components/LatestInfo.vue";
 
 export default {
   data() {
@@ -65,7 +67,8 @@ export default {
   },
   components: {
     Contributors,
-    LatestJob
+    LatestJob,
+    LatestInfo
   },
   mounted() {
     this.$snackbar.open(

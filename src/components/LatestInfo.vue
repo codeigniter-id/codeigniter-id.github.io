@@ -1,6 +1,6 @@
 <template>
   <div>
-    <PostingCard :data="$static.info.edges"/>
+    <PostingCard :data="$static.infos.edges"/>
   </div>
 </template>
 
@@ -19,7 +19,7 @@ export default {
 <static-query>
 
 query Info {
-  info: allPost( filter: { category: { eq:"info"} , published: { eq: true }}, sortBy: "date",  limit: 5, order: DESC)  {
+  infos: allInfo( filter: { category: { eq:"info"} , published: { eq: true }}, sortBy: "date",  limit: 5, order: DESC)  {
     edges {
       node { 
         id

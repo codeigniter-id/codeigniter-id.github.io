@@ -24,6 +24,19 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
+        typeName: "Info",
+        path: "content/info/**/*.md",
+        route: '/info/:year/:month/:day/:slug',
+        remark: {
+          plugins: [
+            '@gridsome/remark-prismjs'
+          ]
+        }
+      }
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
         path: "content/blog/*.md",
         route: '/post/:year/:month/:day/:slug',
         typeName: "Post",

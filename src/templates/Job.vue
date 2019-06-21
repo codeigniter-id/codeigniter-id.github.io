@@ -1,20 +1,23 @@
 <template>
   <Layout>
-    <div class="columns">
-      <div class="column is-7">
+    <div class="columns is-multiline">
+      <div class="column is-12">
         <h1 class="subtitle is-6 has-margin-top-5">
-          Tanggal : {{ $page.job.date }}
+          <span class>Tanggal :</span>
+          {{ $page.job.date }}
           Lokasi : {{ $page.job.location }}
         </h1>
-        <h1 class="title is-1">{{ $page.job.title }}</h1>
+        <h1 class="title is-3">{{ $page.job.title }}</h1>
+      </div>
+      <div class="column is-7">
         <g-image :src="$page.job.poster" width="500"/>
       </div>
       <div class="column is-5">
         <div v-html="$page.job.content" class="has-margin-bottom-50"/>
       </div>
     </div>
-
-    <social-sharing class="has-margin-bottom-20" :url="$page.job.path" inline-template>
+    <h5 class="has-text-grey-light has-text-weight-semibold">Bagikan</h5>
+    <social-sharing class="has-margin-top-20" :url="$page.job.path" inline-template>
       <div class="buttons">
         <source srcset type="image/">
         <network network="facebook" class="button is-white">
@@ -34,6 +37,7 @@
         </network>
       </div>
     </social-sharing>
+
     <vue-disqus shortname="codeigniter-id" :identifier="$page.job.path" :url="$page.job.path"></vue-disqus>
   </Layout>
 </template>

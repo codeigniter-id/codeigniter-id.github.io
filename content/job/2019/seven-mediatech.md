@@ -7,7 +7,7 @@ due_date: 2019-06-17
 author: Putera Kahfi
 by: Seven Media Tech
 published: true
-tags: ["loker","lowongan"]
+tags: ["loker", "lowongan"]
 series: false
 category: job
 cover_image: hmm

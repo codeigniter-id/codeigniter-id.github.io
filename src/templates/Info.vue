@@ -8,6 +8,8 @@ query Info ($path: String!) {
   info: info (path: $path) {
     title
     content
+    category
+    published
   }
 }
 </page-query>
