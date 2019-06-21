@@ -22,7 +22,9 @@
     "bulma": "^0.7.5",
     "bulma-helpers": "^0.3.8",
     "gh-pages": "^2.0.1",
+    "global": "^4.4.0",
     "gridsome": "^0.6.0",
+    "netlify-cli": "^2.11.23",
     "vue-disqus": "^3.0.5",
     "vue-github-activity": "^2.1.1",
     "vue-social-sharing": "^2.4.5"
