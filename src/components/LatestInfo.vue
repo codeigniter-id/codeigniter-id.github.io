@@ -19,7 +19,7 @@ export default {
 <static-query>
 
 query Info {
-  info: allInfo( filter: { category: { eq:"info"} , published: { eq: true }}, sortBy: "date",  limit: 5, order: DESC)  {
+  info: allPost( filter: { category: { eq:"info"} , published: { eq: true }}, sortBy: "date",  limit: 5, order: DESC)  {
     edges {
       node { 
         id

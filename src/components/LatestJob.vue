@@ -19,7 +19,7 @@ export default {
 <static-query>
 
 query Job {
-  jobs: allPost( filter: { category: { eq:"job"} , published: { eq: true }}, sortBy: "date",  limit: 5, order: DESC)  {
+  jobs: allJob( filter: { category: { eq:"job"} , published: { eq: true }}, sortBy: "date",  limit: 5, order: DESC)  {
     edges {
       node { 
         id
@@ -31,6 +31,7 @@ query Job {
         category
         path
         cover_image
+        location
       }
     }
   }

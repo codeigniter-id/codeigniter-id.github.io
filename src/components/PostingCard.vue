@@ -9,7 +9,7 @@
                 <span class="is-info">{{edge.node.category}}</span>
               </p>
               <p class="title is-5 has-margin-bottom-30">
-                <g-link class="has-text-grey-darker" :to="edge.node.slug">{{edge.node.title}}</g-link>
+                <g-link class="has-text-grey-darker" :to="edge.node.path">{{edge.node.title}}</g-link>
               </p>
 
               <p

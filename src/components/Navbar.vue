@@ -25,13 +25,7 @@
 
       <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-start">
-          <div class="navbar-item">
-            <g-link class="nav__link" to="/blog">blog</g-link>
-          </div>
-          <div class="navbar-item">
-            <g-link class="nav__link" to="/events">events</g-link>
-          </div>
-
+          
         </div>
         <div class="navbar-end">
           <div class="navbar-item">

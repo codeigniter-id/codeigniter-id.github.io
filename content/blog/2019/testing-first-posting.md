@@ -5,5 +5,6 @@ description: "testing first posting"
 published: false
 tags: ['Info', 'Cover Image']
 author: Putera Kahfi
+categori: blog
 
 ---

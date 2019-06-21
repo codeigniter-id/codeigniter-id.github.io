@@ -2,11 +2,14 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 @import url("https://use.fontawesome.com/releases/v5.2.0/css/all.css");
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
 @import "bulma.scss";
 @import "helpers.scss";
 
 body {
   background: #fafafa;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .tabs.is-boxed li.is-active a {
@@ -54,7 +57,7 @@ h4 {
 
 .github-profile,
 .github-profile:hover {
-  color: #495961;
+  color: rgba(0,0,0,.6);
   font-weight: 600;
   text-decoration: none;
 }
@@ -85,5 +88,9 @@ h4 {
 
 
 p{
-  color:#6a7898;
+  color:rgba(0,0,0,.6);
+}
+
+.navbar-item, .navbar-link {
+  color: #4a4a4a !important;
 }
