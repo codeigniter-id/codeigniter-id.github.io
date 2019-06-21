@@ -11,20 +11,50 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
-        path: "content/**/*.md",
-        typeName: "Post",
+        path: "content/job/**/*.md",
+        typeName: "Job",
         remark: {
-          // remark options
+          plugins: [
+            '@gridsome/remark-prismjs'
+          ]
         }
       }
     },
     {
       use: "@gridsome/source-filesystem",
       options: {
-        path: "content/job/**/*.md",
-        typeName: "Job",
+        path: "content/event/*.md",
+        typeName: "Event",
         remark: {
-          // remark options
+          plugins: [
+            '@gridsome/remark-prismjs'
+          ]
+        }
+      }
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "content/blog/*.md",
+        route: '/blog/:year/:month/:day/:slug',
+        typeName: "Post",
+        remark: {
+          plugins: [
+            '@gridsome/remark-prismjs'
+          ]
+        }
+      }
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "content/info/*.md",
+        route: '/info/:year/:month/:day/:slug',
+        typeName: "Info",
+        remark: {
+          plugins: [
+            '@gridsome/remark-prismjs'
+          ]
         }
       }
     },

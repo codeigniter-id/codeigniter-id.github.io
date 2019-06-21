@@ -1,4 +1,6 @@
 ---
+
+slug: gridsome-v06
 title: Facebook Group Codeigniter Indonesia Rules
 date: 2019-05-13
 author: Putera Kahfi
