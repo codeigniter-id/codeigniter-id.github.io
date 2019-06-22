@@ -2,11 +2,11 @@
   <footer class="footer">
     <div class="container">
       <div class="columns">
-        <div class="column is-6">
+        <div class="column is-5">
           <h1 class="title is-3">Codeigniter Indonesia</h1>
-          <p class="subtitle is-6 has-margin-top-10 has-text-grey">
+          <p class="subtitle is-6 has-margin-top-10 ">
             CodeIgniter is a powerful PHP framework with a very small footprint,
-            <br>built for developers who need a simple and elegant toolkit to create full-featured web applications.
+            built for developers who need a simple and elegant toolkit to create full-featured web applications.
           </p>
 
           <p class="text-center is-size-7">
@@ -52,20 +52,20 @@
           </nav>
         </div>
 
-        <div class="column is-2">
+        <div class="column is-3">
           <h1 class="title is-6 has-padding-left-10">Link</h1>
 
           <aside class="menu">
             <ul class="menu-list">
               <li>
                 <a
-                  class="is-size-7"
+                  class="is-size-6"
                   href="https://github.com/codeigniter-id/awesome-codeigniter"
                   target="_blank"
                 >Awesome Codeigniter</a>
               </li>
               <li>
-                <a class="is-size-7" target="_blank" href="https://codeigniter.com/">Codeigniter.com</a>
+                <a class="is-size-6" target="_blank" href="https://codeigniter.com/">Codeigniter.com</a>
               </li>
             </ul>
           </aside>

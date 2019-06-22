@@ -37,9 +37,23 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
-        path: "content/blog/*.md",
+        path: "content/blog/**/*.md",
         route: '/post/:year/:month/:day/:slug',
         typeName: "Post",
+        remark: {
+          plugins: [
+            '@gridsome/remark-prismjs'
+          ]
+        }
+      }
+    },
+
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "content/event/**/*.md",
+        route: '/event/:year/:month/:day/:slug',
+        typeName: "Event",
         remark: {
           plugins: [
             '@gridsome/remark-prismjs'
@@ -60,7 +74,8 @@ module.exports = {
     remark: {
       externalLinksTarget: "_blank",
       externalLinksRel: ["nofollow", "noopener", "noreferrer"],
-      anchorClassName: "icon icon-link",
+      anchorClassName: "fa fa-homeicon icon-link",
+      autolinkClassName: "dssdsd",
       plugins: ["@gridsome/remark-prismjs"]
     }
   }

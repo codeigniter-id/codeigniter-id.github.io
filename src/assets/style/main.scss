@@ -9,13 +9,17 @@
 body {
   background: #fafafa;
   font-family: 'Roboto', sans-serif;
-
 }
 
 .tabs.is-boxed li.is-active a {
   background-color: #fafafa;
   border-color: #dbdbdb;
   border-bottom-color: transparent !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 10px auto;
+  font-weight: bold;
 }
 
 h1 {
@@ -88,9 +92,13 @@ h4 {
 
 
 p{
-  color:rgba(0,0,0,.6);
+  color:#030303;
+  line-height: 1.6em !important;
 }
 
-.navbar-item, .navbar-link {
-  color: #4a4a4a !important;
+
+.tabs li.is-active a {
+  border-bottom-color: #6a7898;
+  color: black; 
 }
+

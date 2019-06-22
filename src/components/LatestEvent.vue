@@ -19,7 +19,7 @@ export default {
 <static-query>
 
 query Event {
-  events: allPost( filter: { category: { eq:"event"} , published: { eq: true }}, sortBy: "date",  limit: 5, order: DESC)  {
+  events: allEvent( filter: { category: { eq:"event"} , published: { eq: true }}, sortBy: "date",  limit: 5, order: DESC)  {
     edges {
       node { 
         id
@@ -31,6 +31,7 @@ query Event {
         category
         path
         cover_image
+        location
       }
     }
   }

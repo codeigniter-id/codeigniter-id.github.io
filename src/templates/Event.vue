@@ -1,26 +1,23 @@
 <template>
   <Layout>
     <div class="columns is-multiline">
-      <div class="column is-12">
+      <div class="column is-6">
         <h1 class="subtitle is-6 has-margin-top-5">
-          <span class="has-text-weight-bold">Tanggal :</span>
-          {{ $page.job.date }}
-          <span class="has-text-weight-bold">Lokasi :</span>
-          {{ $page.job.location }}
-          <span class="has-text-weight-bold">Jenis :</span>
-          {{ $page.job.job_type}}
+          <span class>Tanggal :</span>
+          {{ $page.event.date }}
+          Lokasi : {{ $page.event.location }}
         </h1>
-        <h1 class="title is-3">{{ $page.job.title }}</h1>
-      </div>
-      <div class="column is-5" v-if="$page.job.content.length > 1">
-        <div v-html="$page.job.content" class="has-margin-bottom-50"/>
+        <h1 class="title is-3">{{ $page.event.title }}</h1>
       </div>
       <div class="column is-7">
-        <g-image :src="$page.job.poster" width="500"/>
+        <g-image :src="$page.event.poster" width="500"/>
+      </div>
+      <div class="column is-5">
+        <div v-html="$page.event.content" class="has-margin-bottom-50"/>
       </div>
     </div>
     <h5 class="has-text-grey-light has-text-weight-semibold">Bagikan</h5>
-    <social-sharing class="has-margin-top-20" :url="$page.job.path" inline-template>
+    <social-sharing class="has-margin-top-20" :url="$page.event.path" inline-template>
       <div class="buttons">
         <source srcset type="image/">
         <network network="facebook" class="button is-white">
@@ -40,15 +37,15 @@
         </network>
       </div>
     </social-sharing>
-
-    <vue-disqus shortname="codeigniter-id" :identifier="$page.job.slug" :url="$page.job.slug"></vue-disqus>
+{{ $page.event.path }}
+    <vue-disqus shortname="codeigniter-id" :identifier="$page.event.path" :url="$page.event.path"></vue-disqus>
   </Layout>
 </template>
 
 
 <page-query>
-query Job ($path: String!) {
-  job: job (path: $path) {
+query Event ($path: String!) {
+  event: event (path: $path) {
     title
     content
     date (format: "D MMMM YYYY")
@@ -56,7 +53,6 @@ query Job ($path: String!) {
     path
     location
     poster
-    job_type
   }
 }
 </page-query>
@@ -66,7 +62,7 @@ query Job ($path: String!) {
 export default {
   metaInfo() {
     return {
-      title: this.$page.job.title
+      title: this.$page.event.title
     };
   }
 };

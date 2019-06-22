@@ -38,7 +38,7 @@
         <h1 class="title is-6 has-margin-bottom-10">Info Terbaru</h1>
         <LatestInfo class="has-margin-bottom-20"/>
         <h1 class="title is-6 has-margin-bottom-10">Event Terbaru</h1>
-
+        <LatestEvent class="has-margin-bottom-20" />
         <h1 class="title is-6 has-margin-bottom-10">Lowongan Terbaru</h1>
         <LatestJob/>
       </div>
@@ -54,6 +54,7 @@ import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import Contributors from "~/components/Contributors.vue";
 import LatestJob from "~/components/LatestJob.vue";
 import LatestInfo from "~/components/LatestInfo.vue";
+import LatestEvent from "~/components/LatestEvent.vue";
 
 export default {
   data() {
@@ -68,7 +69,8 @@ export default {
   components: {
     Contributors,
     LatestJob,
-    LatestInfo
+    LatestInfo,
+    LatestEvent
   },
   mounted() {
     this.$snackbar.open(

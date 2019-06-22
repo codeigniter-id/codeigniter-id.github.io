@@ -6,14 +6,14 @@
           <div class="media has-margin-bottom-10">
             <div class="media-content">
               <p class="subtitle is-6">
-                <span class="is-info">{{edge.node.category}}</span>
+                <span class="tag is-info">{{edge.node.category}}</span>
               </p>
-              <p class="title is-5 has-margin-bottom-30">
+              <p class="title is-5 has-margin-bottom-30 ">
                 <g-link class="has-text-grey-darker" :to="edge.node.path">{{edge.node.title}}</g-link>
               </p>
 
               <p
-                class="subtitle is-7 has-text-grey-darker has-margin-bottom-5 has-text-weight-semibold"
+                class="subtitle is-7 has-text-grey	 has-margin-bottom-5 "
               >Tanggal : {{edge.node.date}}</p>
             </div>
           </div>
@@ -77,5 +77,9 @@ export default {
   &:hover {
     box-shadow: 0 14px 24px 0 #e3e8ee !important;
   }
+}
+
+p{
+  line-height: 1.2em !important;
 }
 </style>
