@@ -9,7 +9,7 @@
         <slot/>
       </div>
     </transition>
-    <Footer/>
+    <Footer class="has-padding-bottom-15"/>
   </div>
 </template>
 

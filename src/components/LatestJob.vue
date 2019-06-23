@@ -19,7 +19,7 @@ export default {
 <static-query>
 
 query Job {
-  jobs: allJob( filter: { category: { eq:"job"} , published: { eq: true }}, sortBy: "date",  limit: 5, order: DESC)  {
+  jobs: allJob( filter: { category: { eq:"job"} , published: { eq: true }}, sortBy: "date",  limit: 4, order: DESC)  {
     edges {
       node { 
         id

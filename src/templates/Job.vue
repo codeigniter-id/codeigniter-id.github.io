@@ -2,15 +2,15 @@
   <Layout>
     <div class="columns is-multiline">
       <div class="column is-12">
-        <h1 class="subtitle is-6 has-margin-top-5">
-          <span class="has-text-weight-bold">Tanggal :</span>
-          {{ $page.job.date }}
-          <span class="has-text-weight-bold">Lokasi :</span>
-          {{ $page.job.location }}
-          <span class="has-text-weight-bold">Jenis :</span>
-          {{ $page.job.job_type}}
-        </h1>
+      
         <h1 class="title is-3">{{ $page.job.title }}</h1>
+          <h1 class="subtitle is-6">
+          <span class="has-text-weight-bold has-text-grey-light	">
+            Tanggal : {{ $page.job.date }} &nbsp;//
+            Lokasi : {{ $page.job.location }}&nbsp;//
+            Jenis : {{ $page.job.job_type}}
+          </span>
+        </h1>
       </div>
       <div class="column is-5" v-if="$page.job.content.length > 1">
         <div v-html="$page.job.content" class="has-margin-bottom-50"/>

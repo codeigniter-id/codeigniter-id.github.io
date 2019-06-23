@@ -37,8 +37,7 @@
         </network>
       </div>
     </social-sharing>
-{{ $page.event.path }}
-    <vue-disqus shortname="codeigniter-id" :identifier="$page.event.path" :url="$page.event.path"></vue-disqus>
+    <vue-disqus shortname="codeigniter-id" :identifier="$page.event.slut" :url="$page.event.slug"></vue-disqus>
   </Layout>
 </template>
 

@@ -12,6 +12,33 @@
           Codeigniter sendiri merupakan php Framework MVC yang bersifat free dan opensource
         </p>
 
+        <br>
+        <div class="buttons">
+          <a
+            target="_blank"
+            class="button is-white has-bg-transparent"
+            href="https://www.facebook.com/groups/codeigniter.id/"
+          >
+            <i class="fab fa-facebook fa-2x"></i>
+          </a>
+
+          <a
+            target="_blank"
+            class="button is-white has-bg-transparent"
+            href="https://t.me/codeigniterindonesia"
+          >
+            <i class="fab fa-telegram fa-2x"></i>
+          </a>
+
+          <a
+            target="_blank"
+            class="button is-white has-bg-transparent"
+            href="https://github.com/codeigniter-id"
+          >
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+        </div>
+
         <!-- Learn how to use images here: https://gridsome.org/docs/images -->
 
         <br>
@@ -35,11 +62,11 @@
         </b-tabs>
       </div>
       <div class="column is-7">
-        <h1 class="title is-6 has-margin-bottom-10">Info Terbaru</h1>
+        <h1 class="title is-5 has-margin-bottom-20">Info Terbaru</h1>
         <LatestInfo class="has-margin-bottom-20"/>
-        <h1 class="title is-6 has-margin-bottom-10">Event Terbaru</h1>
-        <LatestEvent class="has-margin-bottom-20" />
-        <h1 class="title is-6 has-margin-bottom-10">Lowongan Terbaru</h1>
+        <h1 class="title is-5 has-margin-bottom-20">Event Terbaru</h1>
+        <LatestEvent class="has-margin-bottom-20"/>
+        <h1 class="title is-5 has-margin-bottom-20">Lowongan Terbaru</h1>
         <LatestJob/>
       </div>
     </div>

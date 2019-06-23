@@ -70,7 +70,7 @@ export default {
 <static-query>
 
 query Info {
-  infos: allInfo( filter: { published: { eq: true }}, sortBy: "date",  limit: 5, order: DESC)  {
+  infos: allInfo( filter: { published: { eq: true }}, sortBy: "date",  limit: 4, order: DESC)  {
     edges {
       node { 
         id

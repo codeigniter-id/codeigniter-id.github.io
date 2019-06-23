@@ -29,31 +29,7 @@
         </div>
         <div class="navbar-end">
           <div class="navbar-item">
-            <div class="buttons">
-              <a
-                target="_blank"
-                class="button is-white "
-                href="https://www.facebook.com/groups/codeigniter.id/"
-              >
-                <font-awesome :icon="facebook"/>
-              </a>
-
-              <a
-                target="_blank"
-                class="button is-white "
-                href="https://t.me/codeigniterindonesia"
-              >
-                <font-awesome :icon="telegram"/>
-              </a>
-
-              <a
-                target="_blank"
-                class="button is-white "
-                href="https://github.com/codeigniter-id"
-              >
-                <font-awesome :icon="github"/>
-              </a>
-            </div>
+          
           </div>
         </div>
       </div>

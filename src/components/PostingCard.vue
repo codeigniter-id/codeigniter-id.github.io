@@ -1,20 +1,20 @@
 <template>
   <div class="columns is-multiline">
     <div class="column is-6" v-for="edge in data" :key="edge.node.id">
-      <div class="card has-equal-height is-marginless">
-        <div class="card-content">
+      <div class="card is-marginless  has-padding-bottom-20  has-equal-height ">
+        <div class="card-content is-paddingless">
           <div class="media has-margin-bottom-10">
             <div class="media-content">
-              <p class="subtitle is-6">
+              <p class="subtitle is-6 has-margin-bottom-5">
                 <span class="tag is-info">{{edge.node.category}}</span>
-              </p>
-              <p class="title is-5 has-margin-bottom-30 ">
-                <g-link class="has-text-grey-darker" :to="edge.node.path">{{edge.node.title}}</g-link>
               </p>
 
               <p
-                class="subtitle is-7 has-text-grey	 has-margin-bottom-5 "
+                class="subtitle is-7 has-text-grey has-padding-bottom-5 has-padding-top-5 "
               >Tanggal : {{edge.node.date}}</p>
+              <p class="title is-6 ">
+                <g-link class="has-text-grey-darker" :to="edge.node.path">{{edge.node.title}}</g-link>
+              </p>
             </div>
           </div>
 
@@ -22,30 +22,7 @@
             class="content has-text-grey-darker has-margin-bottom-10 is-family-secondary"
           >{{edge.node.description}}</div>
 
-          <hr class="has-margin-top-15">
-          <social-sharing :url="url+edge.node.path" inline-template>
-            <div>
-              <span class="has-padding-top-15 is-size-7">
-                <i class="fas fa-share has-margin-top-10"></i>
-                Share
-              </span>
-              <network network="facebook" class="button is-white is-marginless">
-                <i class="fab fa-facebook"></i>
-              </network>
-              <network network="linkedin" class="button is-white">
-                <i class="fab fa-linkedin"></i>
-              </network>
-              <network network="twitter" class="button is-white">
-                <i class="fab fa-twitter"></i>
-              </network>
-              <network network="whatsapp" class="button is-white">
-                <i class="fab fa-whatsapp"></i>
-              </network>
-              <network network="telegram" class="button is-white">
-                <i class="fab fa-telegram"></i>
-              </network>
-            </div>
-          </social-sharing>
+          <Sharing :url="url+edge.node.path"/>
         </div>
       </div>
     </div>
@@ -54,9 +31,13 @@
 
 
 <script>
+import Sharing from "~/components/Sharing.vue";
+
 export default {
   props: ["data"],
-
+  components: {
+    Sharing
+  },
   data() {
     return {
       url: ""
@@ -73,13 +54,13 @@ export default {
 .card {
   border-radius: 5px;
   box-shadow: none !important;
-  border: 1px solid #f3f6f9 !important;
+  border-bottom: 1px solid #f3f6f9 !important;
+  background: transparent;
   &:hover {
-    box-shadow: 0 14px 24px 0 #e3e8ee !important;
   }
 }
 
-p{
+p {
   line-height: 1.2em !important;
 }
 </style>
